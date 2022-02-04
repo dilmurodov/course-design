@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* header */
 .contaner {
   width: 84%;
@@ -226,4 +227,88 @@ header {
 .right-flex p {
   font-size: 2rem;
   line-height: 4.8rem;
+=======
+/* ============== */
+/* SESION */
+/* ============= */
+
+.section-session-heading {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #f8f8f8;
+  margin: 10rem 0 7.2rem;
+  padding: 0.9rem;
+  border-radius: 1.2rem;
+}
+
+.hour-session {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.section-session-heading h3 {
+  font-size: 2.6rem;
+  padding-left: 1rem;
+  border-left: 0.6rem solid #000;
+}
+
+.hour-session p {
+  font-size: 1.8rem;
+}
+
+.name-title h1 {
+  font-size: 3.4rem;
+}
+
+.section-session-main {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.section-session-main {
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+.images-items-session {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.images-items-session img {
+  align-self: center;
+  border-radius: 1rem;
+  max-width: 100%;
+}
+
+/* ========== */
+/* MASTERS */
+/* ========== */
+
+.master-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 6rem;
+  margin-top: 7rem;
+}
+
+.master-name-items img {
+  width: 100%;
+}
+
+.master-name-items {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.master-name-items h3 {
+  font-size: 2rem;
+}
+
+.master-name-items p {
+  font-size: 1.8rem;
+>>>>>>> c4a3e16978bffc6748ab715951d46c2df9a5b24b
 }
