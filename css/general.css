@@ -25,9 +25,11 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
   padding: 0;
+  color: black;
 }
 
 :root {
@@ -60,13 +62,34 @@ h6 {
 
 .name-title {
   position: relative;
+  padding-top: 2rem;
 }
 
 .name-title h1:first-child {
   font-size: 3.2rem;
   text-align: center;
+  transform: translateY(70%);
+  z-index: 1001;
+  color: #101010;
+}
+
+.name-title h1:last-child {
+  font-size: 15rem;
+  text-align: center;
+  opacity: 0.05;
+  transform: translateY(-50%);
+  z-index: 1000;
+  color: black;
 }
 
 .white-spacing {
   height: 20rem;
+}
+
+.white-spacing-1 {
+  height: 12.8rem;
+}
+
+.bg-color-ws {
+  background-color: #fafafa;
 }
