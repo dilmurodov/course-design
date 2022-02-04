@@ -117,15 +117,17 @@
 /* ============================= */
 
 .bg-color-section-course {
-  color: #fff;
+  background-color: #fff;
   border-radius: 3rem;
   box-shadow: 5rem 5rem 9.9rem #f5f5f5;
   z-index: -1;
+  padding: 4rem 7rem 7rem;
 }
 
 .course {
   display: grid;
   grid-template-columns: 7fr 4.5fr;
+  gap: 6rem;
 }
 
 .course-plus {
@@ -146,4 +148,115 @@
 
 .course-item-1 h2 {
   font-size: 2.4rem;
+}
+
+.course-item-2 {
+  background-color: black;
+  border-radius: 2.5rem;
+  padding: 5rem 7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+  align-items: center;
+}
+
+.course-item-2 h3 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.course-item-2 h3::after {
+  content: "Tomas";
+  font-size: 1.9rem;
+  padding: 2rem;
+  text-decoration: line-through;
+}
+
+.course-item-2 h2 {
+  font-size: 3.4rem;
+  color: white;
+}
+
+.course-item-2 h2::after {
+  content: "Tomas";
+  font-size: 2.5rem;
+  padding: 2rem;
+}
+
+.course-item-2 p {
+  font-size: 1.8rem;
+  color: white;
+}
+
+.course-item-2 a {
+  padding: 1.4rem 6.7rem;
+  color: white;
+  font-weight: 700;
+  background-color: #f46632;
+  border-radius: 1.2rem;
+  font-size: 1.8rem;
+}
+
+/* ====================== */
+/* ======CONTACT US====== */
+/* ====================== */
+
+.contact-us-section {
+  width: 100%;
+  background-color: black;
+  padding: 13rem 0;
+}
+
+.contact-us {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+
+.contact-us-form {
+  align-self: start;
+}
+
+.contact-title-name h2 {
+  color: white;
+  font-size: 3.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.items-contact-us p {
+  color: white;
+  margin-bottom: 4.8rem;
+  font-size: 2rem;
+  line-height: 2;
+}
+
+.input-contact-us input {
+  border: none;
+  background-color: #262626;
+  padding: 1.5rem 3.5rem;
+  padding-right: 28.4rem;
+  border-radius: 1.6rem;
+  margin-bottom: 5.8rem;
+}
+
+.plus-contact-us {
+  display: flex;
+  align-items: center;
+}
+
+.plus-contact-us p {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.contact-us-img-bg {
+  position: absolute;
+  right: -5%;
+  top: 0;
+  transform: translateY(-30%);
+}
+
+.email-img-logo {
+  align-self: center;
+  justify-self: center;
 }

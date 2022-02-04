@@ -34,7 +34,7 @@ p {
 
 :root {
   --color-btn: #f46632;
-  --color-black-section: #101010;
+  --color-black-section: #070404;
   --body-color: #161212;
 }
 .section-title {
@@ -92,4 +92,8 @@ p {
 
 .bg-color-ws {
   background-color: #fafafa;
+}
+
+.course-title-name {
+  font-size: 1.2rem;
 }
