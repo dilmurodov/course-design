@@ -2,14 +2,8 @@ html,
 body {
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
-  background-color: #eee;
-  font-family: sans-serif;
-  box-sizing: border-box;
-=======
   background-color: #fff;
   font-family: "Noto Sans", sans-serif;
->>>>>>> c4a3e16978bffc6748ab715951d46c2df9a5b24b
 }
 html {
   font-size: 62.5%;
@@ -39,17 +33,12 @@ h6 {
 :root {
   --color-btn: #f46632;
   --color-black-section: #101010;
-<<<<<<< HEAD
-  --body-color: #fafafa;
-=======
   --body-color: #161212;
->>>>>>> c4a3e16978bffc6748ab715951d46c2df9a5b24b
 }
 .section-title {
   font-size: 3.2rem;
   text-align: center;
   z-index: 2;
-<<<<<<< HEAD
 }
 .section-title-background {
   font-size: 15rem;
@@ -58,7 +47,6 @@ h6 {
   left: 50%;
   transform: translateX(-50%);
   z-index: 0;
-=======
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -89,5 +77,4 @@ h6 {
 
 .white-spacing {
   height: 20rem;
->>>>>>> c4a3e16978bffc6748ab715951d46c2df9a5b24b
 }

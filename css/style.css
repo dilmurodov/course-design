@@ -231,6 +231,10 @@ header {
 /* SESION */
 /* ============= */
 
+/* ============== */
+/* SESION */
+/* ============= */
+
 .section-session-heading {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -289,7 +293,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 6rem;
+  gap: 5rem;
   margin-top: 7rem;
 }
 
@@ -309,46 +313,70 @@ header {
 
 .master-name-items p {
   font-size: 1.8rem;
-  grid-template-rows: 1fr 1fr;
-  gap: 6rem;
-  margin-top: 7rem;
 }
 
-.master-name-items img {
-  width: 100%;
+/* =========== */
+/* FAQ */
+/* ========== */
+
+.faq-section,
+.course-free-section {
+  max-width: 100%;
+  background-color: #fafafa;
 }
 
-.master-name-items {
+.faq {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3.5rem;
 }
 
-.master-name-items h3 {
+.faq-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 6rem;
+  background-color: white;
+  border-radius: 2.6rem;
+  box-shadow: 1rem 1rem 9.9rem #d3d3d313;
+}
+
+.faq-items p {
   font-size: 2rem;
 }
 
-.master-name-items p {
-  font-size: 1.8rem;
-  grid-template-rows: 1fr 1fr;
-  gap: 6rem;
-  margin-top: 7rem;
+/* ============================= */
+/* =======COURSRE FREE====== */
+/* ============================= */
+
+.bg-color-section-course {
+  color: #fff;
+  border-radius: 3rem;
+  box-shadow: 5rem 5rem 9.9rem #f5f5f5;
+  z-index: -1;
 }
 
-.master-name-items img {
-  width: 100%;
+.course {
+  display: grid;
+  grid-template-columns: 7fr 4.5fr;
 }
 
-.master-name-items {
+.course-plus {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.course-plus p {
+  font-size: 1.6rem;
+}
+
+.course-item-1 {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 5rem;
 }
 
-.master-name-items h3 {
-  font-size: 2rem;
-}
-
-.master-name-items p {
-  font-size: 1.8rem;
+.course-item-1 h2 {
+  font-size: 2.4rem;
 }
