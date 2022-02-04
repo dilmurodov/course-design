@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* header */
 .contaner {
   width: 84%;
@@ -227,7 +226,7 @@ header {
 .right-flex p {
   font-size: 2rem;
   line-height: 4.8rem;
-=======
+}
 /* ============== */
 /* SESION */
 /* ============= */
@@ -310,5 +309,46 @@ header {
 
 .master-name-items p {
   font-size: 1.8rem;
->>>>>>> c4a3e16978bffc6748ab715951d46c2df9a5b24b
+  grid-template-rows: 1fr 1fr;
+  gap: 6rem;
+  margin-top: 7rem;
+}
+
+.master-name-items img {
+  width: 100%;
+}
+
+.master-name-items {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.master-name-items h3 {
+  font-size: 2rem;
+}
+
+.master-name-items p {
+  font-size: 1.8rem;
+  grid-template-rows: 1fr 1fr;
+  gap: 6rem;
+  margin-top: 7rem;
+}
+
+.master-name-items img {
+  width: 100%;
+}
+
+.master-name-items {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.master-name-items h3 {
+  font-size: 2rem;
+}
+
+.master-name-items p {
+  font-size: 1.8rem;
 }
