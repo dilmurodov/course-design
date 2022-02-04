@@ -1,43 +1,72 @@
-html, body{
-    margin: 0;
-    padding: 0;
-    background-color: #eee;
-    font-family: sans-serif;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: "Noto Sans", sans-serif;
 }
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-ul, li{
-    list-style: none;
+ul,
+li {
+  list-style: none;
 }
-a{
-    text-decoration: none;
-    color: inherit;
+a {
+  text-decoration: none;
+  color: inherit;
 }
-h1, h2, h3, h4, h5, h6{
-    margin: 0;
-    padding: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
 }
 
 :root {
-    --color-btn: #F46632;
-    --color-black-section: #101010;
-    --body-color: #FAFAFA;
+  --color-btn: #f46632;
+  --color-black-section: #101010;
+  --body-color: #161212;
 }
-.section-title{
-    font-size: 3.2rem;
-    text-align: center;
-    z-index: 2;
+.section-title {
+  font-size: 3.2rem;
+  text-align: center;
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
-.section-title-background{
-    font-size: 15rem;
-    opacity: 0.05%;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 0;
+.section-title-background {
+  font-size: 15rem;
+  opacity: 0.5;
+  position: relative;
+  transform: translateX(-50%);
+  z-index: 0;
+  color: #101010;
+  top: 0;
+}
+
+.container {
+  max-width: 84%;
+  margin: 0 auto;
+}
+
+.name-title {
+  position: relative;
+}
+
+.name-title h1:first-child {
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+.white-spacing {
+  height: 20rem;
 }
