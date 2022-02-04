@@ -1,6 +1,95 @@
-.section__  .title{
-    text-align: center;
-    h1{
-        font-size: 10rem;
+
+.section1 {
+    margin-top: 3em;
+    .title {
+        position: relative;
+        text-align: center;
+        h1 {
+            font-size: 10rem;
+            color: #000;
+            opacity: 7%;
+        }
+        h5 {
+            left: 50%;
+            top: 60%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            font-size: 3rem;
+            z-index: 1;
+        }
+    }
+    .projects__cols {
+        display: flex;
+        gap: 1em;
+        .left{
+            padding-right: 15em;
+            h1{
+                margin-bottom: 3rem;
+                color: #101010;
+                font-size: 3.5rem;
+                position: relative;
+                padding-left: 0.7em;
+            }
+            h1:after{
+                content: "";
+                position: absolute;
+                width: 0.6em;
+                height: 0.6em;
+                border-radius: 50%;
+                background-color: #101010;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            p{
+                font-size: 2rem;
+                color: #101010;
+                line-height: 5.6rem;
+            }
+            ul{
+                margin-top: 6em;
+                li{
+                    img{
+                        width: 2.5rem;
+                        height: 2.5rem;
+
+                        vertical-align: middle;
+                    }
+                    font-size: 1.6rem;
+                    margin-bottom: 3rem;
+                }
+            }
+            p:last-child{
+                display: inline;
+                padding: 1em;
+                border-radius: 1.6rem;
+                background-color: #f5f5f5;
+                color: #101010;
+                font-size: 2rem;
+            }
+        }
+        .right {
+            width: 611px;
+            flex-shrink: 1;
+            position: relative;
+            .big__photo{
+                height: 719px;
+            }
+    
+            .icon1 {
+                position: absolute;
+                bottom: 10rem;
+                left: 0;
+                color: #000;
+                bottom: 18em;
+            }
+            .icon2 {
+                position: absolute;
+                bottom: 10rem;
+                right: 3em;
+                bottom: 18em;
+            }
+        }
+        
     }
 }

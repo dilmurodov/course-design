@@ -1,7 +1,112 @@
-.section__ .title {
+.section1 {
+  margin-top: 3em;
+}
+
+.section1 .title {
+  position: relative;
   text-align: center;
 }
 
-.section__ .title h1 {
+.section1 .title h1 {
   font-size: 10rem;
+  color: #000;
+  opacity: 7%;
+}
+
+.section1 .title h5 {
+  left: 50%;
+  top: 60%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
+  font-size: 3rem;
+  z-index: 1;
+}
+
+.section1 .projects__cols {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+}
+
+.section1 .projects__cols .left {
+  padding-right: 15em;
+}
+
+.section1 .projects__cols .left h1 {
+  margin-bottom: 3rem;
+  color: #101010;
+  font-size: 3.5rem;
+  position: relative;
+  padding-left: 0.7em;
+}
+
+.section1 .projects__cols .left h1:after {
+  content: "";
+  position: absolute;
+  width: 0.6em;
+  height: 0.6em;
+  border-radius: 50%;
+  background-color: #101010;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.section1 .projects__cols .left p {
+  font-size: 2rem;
+  color: #101010;
+  line-height: 5.6rem;
+}
+
+.section1 .projects__cols .left ul {
+  margin-top: 6em;
+}
+
+.section1 .projects__cols .left ul li {
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+
+.section1 .projects__cols .left ul li img {
+  width: 2.5rem;
+  height: 2.5rem;
+  vertical-align: middle;
+}
+
+.section1 .projects__cols .left p:last-child {
+  display: inline;
+  padding: 1em;
+  border-radius: 1.6rem;
+  background-color: #f5f5f5;
+  color: #101010;
+  font-size: 2rem;
+}
+
+.section1 .projects__cols .right {
+  width: 611px;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  position: relative;
+}
+
+.section1 .projects__cols .right .big__photo {
+  height: 719px;
+}
+
+.section1 .projects__cols .right .icon1 {
+  position: absolute;
+  bottom: 10rem;
+  left: 0;
+  color: #000;
+  bottom: 18em;
+}
+
+.section1 .projects__cols .right .icon2 {
+  position: absolute;
+  bottom: 10rem;
+  right: 3em;
+  bottom: 18em;
 }
