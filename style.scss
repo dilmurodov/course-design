@@ -1,6 +1,6 @@
-
 .section1 {
-    margin-top: 3em;
+    // border: 1px solid red;
+    padding-top: 7em;
     .title {
         position: relative;
         text-align: center;
@@ -91,5 +91,89 @@
             }
         }
         
+    }
+}
+.section2{
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: #FAFAFA;
+    div:nth-child(2){
+        .start__end{
+            display: inline-block;
+            width: 100%;
+            margin-top: 4em;
+            display: flex;
+            justify-content: space-around;
+            padding: 1em;
+            margin-bottom: 3em;
+            // border: 1px solid red;
+            span{
+                font-size: 2.4rem;
+                font-weight: 700;
+                vertical-align: middle;
+            }
+        }
+        .dates{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            >span{
+                justify-content: space-between;
+                padding: 4rem 7.8rem;
+                font-size: 4rem;
+                font-weight: bold;
+                display: inline-block;
+                border-radius: 3rem;
+                box-shadow: 40px 40px 99px 30px rgba(172, 172, 172, 0.16);
+            }
+        }
+        .register{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 3em;
+            span:first-child{
+                display: inline-block;
+                padding: 10px;
+                background-color: #101010;
+                color: #fff;
+                border-radius: 0.4em;
+                font-size: 2rem;
+            }
+            span:nth-child(2){
+                font-size: 3rem;
+                font-weight: 600;
+
+                color: #101010;
+            }
+            a{
+                display: inline-block;
+                padding: 10px;
+                background-color: #F46632;
+                color: #fff;
+                font-size: 2rem;
+                border-radius: 0.4em;
+                cursor: pointer;
+
+
+            }
+        }
+    }
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5em 0;
+    .icons{
+        font-size: 3rem;
+        i:not(:last-child){
+            margin-right: 1em;
+        }
+
+    }
+    .contact__nums{
+        font-size: 2rem;
     }
 }

@@ -1,5 +1,5 @@
 .section1 {
-  margin-top: 3em;
+  padding-top: 7em;
 }
 
 .section1 .title {
@@ -109,4 +109,117 @@
   bottom: 10rem;
   right: 3em;
   bottom: 18em;
+}
+
+.section2 {
+  padding-left: 7%;
+  padding-right: 7%;
+  background-color: #FAFAFA;
+}
+
+.section2 div:nth-child(2) .start__end {
+  display: inline-block;
+  width: 100%;
+  margin-top: 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1em;
+  margin-bottom: 3em;
+}
+
+.section2 div:nth-child(2) .start__end span {
+  font-size: 2.4rem;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.section2 div:nth-child(2) .dates {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section2 div:nth-child(2) .dates > span {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 4rem 7.8rem;
+  font-size: 4rem;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 3rem;
+  -webkit-box-shadow: 40px 40px 99px 30px rgba(172, 172, 172, 0.16);
+          box-shadow: 40px 40px 99px 30px rgba(172, 172, 172, 0.16);
+}
+
+.section2 div:nth-child(2) .register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 3em;
+}
+
+.section2 div:nth-child(2) .register span:first-child {
+  display: inline-block;
+  padding: 10px;
+  background-color: #101010;
+  color: #fff;
+  border-radius: 0.4em;
+  font-size: 2rem;
+}
+
+.section2 div:nth-child(2) .register span:nth-child(2) {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #101010;
+}
+
+.section2 div:nth-child(2) .register a {
+  display: inline-block;
+  padding: 10px;
+  background-color: #F46632;
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 0.4em;
+  cursor: pointer;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5em 0;
+}
+
+.footer .icons {
+  font-size: 3rem;
+}
+
+.footer .icons i:not(:last-child) {
+  margin-right: 1em;
+}
+
+.footer .contact__nums {
+  font-size: 2rem;
 }
